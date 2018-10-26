@@ -16,6 +16,15 @@ namespace TestForLoopOutput
                 Console.WriteLine(i);
                 i--;
             }
+
+            for (int i = 0; i < 3; i++)
+            {
+                for (int j = 2; j > 0; j--)
+                {
+                    Console.WriteLine(i - j);
+                }
+                Console.WriteLine("Cheri likes loops!");
+            }
         }
     }
 }
